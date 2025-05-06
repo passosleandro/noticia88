@@ -3,24 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>leandro</title>
+    <title>projetoleandro</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
     <header>
-        <h1> nome site </h1>
+        <div class="container">
+        <h1> FLECHA Aviation </h1>
         <nav>
             <ul>
                 <li>
-                    <a href="ss"sobre leandro></a>
+                    <a href="#Aircraft">nossas aeronaves</a>
                 </li>
                 <li>
-                    <a href="contato"></a>
+                    <a href="#Contact">nosso contato</a>
                 </li>
             </ul>
         </nav>
+        </div>
     </header>
-  
-    
+    <section id="Aircraft">
+        <div class="container">
+            <img class="nave"  src="./wda.JPG" alt="cirrus"/>
+            <div>
+                <h2>Cirrus Aircraft</h2>
+                <p>Aeronave monomotor de quatro ou cinco assentos, com um motor potente e eficiente. É a aeronave leve com cockpit de vidro completo mais vendida do mundo. Voada pelo #Flecha06</p>
+            </div>
+            <img class="nave" src="./dar.JPG" alt="phenom">
+            <div>
+                <h2>Embraer Aircraft</h2>
+                <p>O Phenom 100 é um avião executivo, da categoria Very Light Jet (VLJ), desenvolvido e fabricado pela Embraer. Segurança, praticidade e conforto! By #Flechas05 e #Flecha07</p>
+            </div>
+            <ul class="logossize">
+                <li><img src="./cirrus2.jpg" alt="logocirrus"/></li>
+                <li><img src="./embraer png" alt="logoembraer"/></li>
+            </ul>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="container">
+            <h2>Contato</h2>
+        </div>
+        <div class="contact-methods">
+            <div>
+                <h3>Fale conosco</h3>
+                <form>
+                    <input type="text" placeholder="Seu Nome" required/>
+                    <input type="Email" placeholder="Seu Email" required/>
+                    <input type="tel" placeholder="Telefone (optional)"/>
+                    <textarea placeholder="Sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <h3>Nos Acompanhe</h3>
+                <ul class="social-links">
+                    <li>
+                        <a href="#" title="siga-nos by instagran"></a>
+                        <img src="./instagram.png" alt="logoinsta"/>
+                        
+                    </li>
+                    <li>
+                        <a href="#" title="siga-nos by facebook"></a>
+                        <img src="./facebook.png" alt="logoface"/>
+                        
+                    </li>
+                    <li>
+                        <a href="#" title="visite nosso youtubr"></a>
+                        <img src="./youtube.png" alt="logoyoutube"/>
+                        
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Venha até nós:</h3>
+                <p>
+                    Rua dos Hangares, Cascavel PR
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p> &copy; Flecha Aviation todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
