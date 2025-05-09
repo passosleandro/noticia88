@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #5b68da;
+}
+
+#formCadastro {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#formCadastro div {
+    display: flex;
+    flex-direction: column;
+}
+
+#formCadastro label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#formCadastro input[type="text"],
+#formCadastro input[type="tel"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#formCadastro button {
+    padding: 10px 15px;
+    background-color: #2f649c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formCadastro button:hover {
+    background-color: #5b68da;
+}
+
+#tabelaContatos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tabelaContatos th,
+#tabelaContatos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#tabelaContatos th {
+    background-color: #f2f2f2;
+}
